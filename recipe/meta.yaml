@@ -1,5 +1,5 @@
 {% set name = "Flask-Caching" %}
-{% set version = "1.3.3" %}
+{% set version = "1.4.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5af1759e5ae3424abec918537f0201a1476ae9442452bcb5c8787468a9de0f5a
+  sha256: e34f24631ba240e09fe6241e1bf652863e0cff06a1a94598e23be526bc2e4985
 
 build:
   number: 0
