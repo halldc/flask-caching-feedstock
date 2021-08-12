@@ -10,7 +10,7 @@ source:
   sha256: cc25b0800fb0ae4e3fcaaf12203263c564f41197593283669b81216089803a1b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
 
@@ -40,3 +40,4 @@ about:
 extra:
   recipe-maintainers:
     - halldc
+    - ap--
